@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      body{
+        text-align: center;
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>FORMS</h1>
+
+    <form action="result.html">
+      <section id="name">
+        <!-- NAME -->
+        <label for="isim">Name</label> <br />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          name="name"
+          value=""
+          required
+        />
+        <br /><br />
+
+        <!-- EMAIL -->
+        <label for="email">Email</label> <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <br /><br />
+
+        <!-- PASSWORD -->
+        <label for="pass">Password</label> <br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="Enter at least 8 characters"
+          required
+        />
+        <br /><br />
+
+        <!-- AGE -->
+        <label for="age">Age</label> <br />
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="0"
+          max="160"
+          placeholder="Age"
+        />
+        <br /><br />
+
+        <!-- GENDER  (RADIO BUTTON) -->
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+
+        <label for="none">None</label>
+        <input type="radio" id="none" name="gender" value="None" checked />
+        <br /><br />
+
+        <label for="fav-cars">Please Select Your Favorite Cars:</label>
+        <br />
+        <input type="checkbox" name="cars1" id="bmw" value="BMW" />
+        <label for="bmw">BMW</label>
+
+        <input type="checkbox" name="cars2" id="mercedes" value="Mercedes" />
+        <label for="mercedes">Mercedes</label>
+
+        <br /><br />
+        <label for="dob">Date of Birth</label> <br />
+        <input type="date" name="dob" id="dob" min="1990-01-01" />
+
+        <br /><br />
+      </section>
+
+      <!-- SELECT -->
+      <section>
+        <select name="dessert" id="dessert">
+          <optgroup label="sherbet desserts">
+            <option value="künefe">Künefe</option>
+            <option value="havuç dilimi">Havuç Dilimi</option>
+          </optgroup>
+
+          <optgroup label=" Milky desserts">
+            <option value="sütlaç">Sütlaç</option>
+            <option value="kazandibi">Kazandibi</option>
+          </optgroup>
+        </select>
+      </section>
+
+      <br><br>
+
+      <!-- TEXTAREA -->
+      <section>
+        <label for="comment">
+            Enter Your Comments:</label>
+        <br />
+        <textarea
+          name="comment"
+          id="comment"
+          cols="40"
+          rows="10"
+          style="resize: none"
+          maxlength="100"
+          placeholder="En fazla 100 karakter girilebilir"
+        ></textarea>
+
+      <section id="buttons">
+        <input type="submit" value="Save" />
+        <input type="reset" value="Clear" />
+      </section>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.text-style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: cornflowerblue;
+    font-style: italic;
+}
+
+h1{
+    color: burlywood;
+}
+
+h2{
+    font-variant: small-caps;
+    color: gray;
+    text-indent: 25px;
+    line-height: 35px;
+}
+
+/* Descendant Selector */
+h2 span{
+    color: cornflowerblue;
+    
+}
+
+div p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: cadetblue;
+}
+ 
+div p span{
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+.example{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: darkgreen;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    line-height: 1.4;
+}
+
+.direct{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    direction: rtl;
+    text-align: right;
+
+}
+
+ 
+.text-shadow{
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+text-shadow: 10px 10px 5px grey;
+
+}
+
+.box-shadow{
+    background-color: thistle;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px ;
+}
+
+

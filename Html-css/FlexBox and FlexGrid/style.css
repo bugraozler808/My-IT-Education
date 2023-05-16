@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul.nav{
+    background-color: gray;
+    list-style-type: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+ul.nav li{
+background-color: burlywood;
+width: 7rem;
+padding: 0.5rem;
+border-radius: 5px;
+}

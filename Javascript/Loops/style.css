@@ -1,7 +1,6 @@
 body {
-    text-align: center;
-    font-family: tahoma;
-    height: 100vh;
-    background: linear-gradient(to top left, #0acc1a, #8908d4);
-  }
-  
+  text-align: center;
+  font-family: tahoma;
+  height: 100vh;
+  background: linear-gradient(to top left, #1b9625, #8908d4);
+}

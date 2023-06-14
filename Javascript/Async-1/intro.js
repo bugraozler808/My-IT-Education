@@ -22,3 +22,12 @@
 //   const startTime = new Date().getTime()
 //   while (new Date().getTime() < startTime + waitingTime) {}
 // }
+// console.log("Hello")
+// // alert("Blocked") //? Blocking
+// console.time("gecikme")
+// // delay(4000) //? blocking code - senkron
+// console.timeEnd("gecikme")
+// console.log("hi")
+
+//* Asenkron (setTimeout())
+//* ------------------------------------------------

@@ -31,3 +31,18 @@
 
 //* Asenkron (setTimeout())
 //* ------------------------------------------------
+// setTimeout(() => {
+//   console.log("I am fine")
+//   // console.timeEnd("timer")
+// }, 1000)
+
+// setTimeout(() => {
+//   console.log("Whats up?")
+//   // console.timeEnd("timer")
+// }, 1000)
+
+// console.log("start")
+// // console.time("timer")
+
+//* Asenkron (setInterval, clearInterval)
+//*------------------------------------------------

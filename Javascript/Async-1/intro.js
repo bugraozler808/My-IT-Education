@@ -46,3 +46,18 @@
 
 //* Asenkron (setInterval, clearInterval)
 //*------------------------------------------------
+//? setInterval periyodik zaman araligi oluşturmak icin kullanilabilir.
+//? clearInterval yardımıyla surekli devam interval pasif hale getirilir.
+// let count = 0
+// const sec1 = setInterval(() => {
+//   console.log(++count)
+//   if (count > 9) {
+//     clearInterval(sec1)
+//   }
+// }, 1000)
+
+//! Callback Hell (nested ve birbirine bagli callback'ler)
+//!-----------------------------------------------------
+//* Eger birbirine bagimli asenkron kodlarin yazilmasi gerekirse,nested callback
+//* yapisinin kullanilmasi gerekebilir. Fakat bu iyi bir programlama yaklasimi degildir.
+// !callback hell olarak adlandirilan bu yapinin anlasilmasi ve surdurulebilirligi oldukca zordur.

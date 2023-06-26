@@ -113,16 +113,16 @@ console.log(cls) */
 // const colors = ['Red','Green', 'Blue','Yellow','Brown'];
 // console.log(colors.shift()) //İlk elemanı siler, sildiği değeri döndürür.
 // console.log(colors)
-//splice
+// splice
 // const colors = ['Red','Green', 'Blue','Yellow','Brown']
-//Eleman silme
+// Eleman silme
 // console.log(colors.splice(2,1)) // 2. index e git 1 eleman sil
 // console.log(colors.splice(2)) // 2. index e git sonuna kadar sil
 // console.log(colors)
-//Eleman ekleme
+// Eleman ekleme
 // console.log(colors.splice(2,0, 'White')) //2. indexe git 0 elaman sil white ı ekle. Silmediği için [] döner.
 // console.log(colors)
-//Eleman değiştirme
+// Eleman değiştirme
 // console.log(colors.splice(3,1,'Pink'))
 // console.log(colors.splice(3,2,'Pink','Black')) //3 e git 2 elaman sil yerine uenilerini ekle. Silinenler aarray olarak döner
 // console.log(colors)

@@ -157,7 +157,7 @@ console.log(colors[colors.indexOf("Green")])
 // console.log(arr.join("")) // Clarusway
 // console.log(arr.join("-")) // C-l-a-r-u-s-w-a-y
 // console.log(arr)
-//orjinal array bozulmaz. Array ii stringe çevirir
+// orjinal array bozulmaz. Array ii stringe çevirir
 //sort
 // const arr = [ 55, 5, 22, 2, 11, 1, 111 ]
 // arr.sort()

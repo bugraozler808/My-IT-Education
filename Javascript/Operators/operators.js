@@ -1,14 +1,14 @@
-console.log("Js dosyası bağlandı.")
+console.log("Js dosyası bağlandı.");
 //?         🔥🔥🔥       Operators           🔥🔥🔥
 
 //! Atama Operatörü, Aritmetiksel Operatörler,Artırma ve Azaltma Operatörü, Karşılaştırma Operatörleri ve Logical(Mantıksal) Operatörler
 
-var deneme = 5
-varDeneme = 6
+var deneme = 5;
+varDeneme = 6;
 
-let myVar = 5
+let myVar = 5;
 
-const myVar1 = 6
+const myVar1 = 6;
 
 //+ Aritmetiksel Operatörler
 
@@ -40,12 +40,12 @@ const myVar1 = 6
 // const fullName2 = `${firstName} ${lastName}`;
 // console.log(fullName2);
 
-const num3 = "6"
-const num4 = "7"
-console.log(num3 + num4) // 67
-console.log(num3 + 7) // 67. js otomatik tip dönüşümü yaparak buradaki ifadeyi de concatenat etti.
+const num3 = "6";
+const num4 = "7";
+console.log(num3 + num4); // 67
+console.log(num3 + 7); // 67. js otomatik tip dönüşümü yaparak buradaki ifadeyi de concatenat etti.
 // console.log(7 + num3); // + operatorunde string değişken üstün gelir ve dönmüşümü stringe yapar. 76 çıktısını verdi.
-console.log(typeof (7 + num3)) // string
+console.log(typeof (7 + num3)); // string
 
 //! - operatörü
 
@@ -332,42 +332,42 @@ console.log(typeof (7 + num3)) // string
 // *            TIP DONUSUMLERI
 // * =============================================
 
-// let sayi = +prompt("Bir sayi girinz:") //? 100
-// console.log(typeof sayi)
-// let sayi2 = 10
-// sayi = sayi + sayi2 //? concatination
+let sayi = +prompt("Bir sayi girinz:"); //? 100
+console.log(typeof sayi);
+let sayi2 = 10;
+sayi = sayi + sayi2; //? concatination
 
-// console.log(++sayi)
+console.log(++sayi);
 
-console.log(Number("123")) //? 123
-console.log(Number("12.3")) //? 12.3
-console.log(Number("0")) //? 0
-console.log(Number(" ")) //? 0
-console.log(Number("")) //? 0
-console.log(Number(null)) //? 0
-console.log(Number(undefined)) //? NaN
+console.log(Number("123")); //? 123
+console.log(Number("12.3")); //? 12.3
+console.log(Number("0")); //? 0
+console.log(Number(" ")); //? 0
+console.log(Number("")); //? 0
+console.log(Number(null)); //? 0
+console.log(Number(undefined)); //? NaN
 
-const myNumber = "threezeroone" //? string
-let myNumber2 = Number(myNumber)
-console.log(myNumber2) //? NaN
-console.log(typeof myNumber2) //? number
+const myNumber = "threezeroone"; //? string
+let myNumber2 = Number(myNumber);
+console.log(myNumber2); //? NaN
+console.log(typeof myNumber2); //? number
 
-const dolar = "1000.3"
-const tl = "2000.2"
+const dolar = "1000.3";
+const tl = "2000.2";
 
-const totalMoney = Number(dolar) + +tl
-console.log(totalMoney)
+const totalMoney = Number(dolar) + +tl;
+console.log(totalMoney);
 
 //* ALternatif olarak parseInt() ve parseFloat() da kullanilabilir.
-const dolarInt = parseInt(dolar) //? tamsayiya cevirir
-console.log(dolarInt)
-const tlFloat = parseFloat(tl) //? virgüllü sayiya çevirir
-console.log(tlFloat)
+const dolarInt = parseInt(dolar); //? tamsayiya cevirir
+console.log(dolarInt);
+const tlFloat = parseFloat(tl); //? virgüllü sayiya çevirir
+console.log(tlFloat);
 
-console.log(parseFloat(null)) //? NaN
-console.log(parseFloat("")) //? NaN
-console.log(parseFloat(undefined)) //? NaN
+console.log(parseFloat(null)); //? NaN
+console.log(parseFloat("")); //? NaN
+console.log(parseFloat(undefined)); //? NaN
 
 //? String
-const myNumber3 = 2000.5
-console.log(String(myNumber3))
+const myNumber3 = 2000.5;
+console.log(String(myNumber3));

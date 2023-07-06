@@ -53,7 +53,7 @@ addBtn.addEventListener("click", (e) => {
   }
 });
 
-//? input'un üzerinde iken bir klavye tusuna basilirsa calis
+//? input'un üzerinde iken bir klavye tusuna basilirsa calis /(önemli!!)
 document.querySelector("#input").addEventListener("keydown", (e) => {
   //   console.log(e.code)
   //   console.log(e.keyCode)

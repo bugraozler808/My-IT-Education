@@ -29,7 +29,7 @@ yazdirParametre("Salut", "FS16");
 yazdirParametre("Hola", "FS17");
 yazdirParametre(12.4, true);
 
-//! Bir parametreyi cagirma sirasinda kullanmaz isek onun
+//! Bir parametreyi cagirma (invoke)sirasinda kullanmaz isek onun
 //! yerine default parametre atayabiliriz. Ornekteki name
 //! parametresi icin default değer olarak 'Cohort14' atanmistir.
 

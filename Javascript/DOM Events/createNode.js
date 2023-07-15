@@ -33,10 +33,10 @@ newP.className = "par center";
 newP.name = "deneme";
 
 //? 2) setAttribute()
-newP.setAttribute("id", "new-id");
-newP.setAttribute("class", "new-class");
-newP.setAttribute("name", "new-class");
-newP.setAttribute("type", "button");
+// newP.setAttribute("id", "new-id");
+// newP.setAttribute("class", "new-class");
+// newP.setAttribute("name", "new-class");
+// newP.setAttribute("type", "button");
 
 //? 3) classList
 newP.classList.add("bg-danger", "border");
